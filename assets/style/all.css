@@ -64,6 +64,14 @@ img {
   margin: 0 auto;
   padding: 0 12px; }
 
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px; } }
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 100%; } }
+
 header {
   background-color: #AA0601; }
 
@@ -131,7 +139,7 @@ a {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .hamburger {
     display: block; }
   .hamburger.active .hamburger__bar:nth-child(2) {
@@ -249,7 +257,7 @@ footer {
   .copyright__link:hover {
     border-bottom: 1px solid #ffffff; }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .footer-box {
     padding-top: 24px; }
   .footer-content {
